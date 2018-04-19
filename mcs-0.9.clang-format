@@ -1,0 +1,87 @@
+#
+# Copyright (c) Manuel Schoch. All rights reserved.
+# Licensed under the MIT license.
+#
+# Author: Manuel Schoch
+#
+
+Language: Cpp
+
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+#AlignEscapedNewlines: DontAlign
+AlignEscapedNewlinesLeft: false
+AlignOperands: false
+AlignTrailingComments: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: true
+BinPackParameters: true
+BreakAfterJavaFieldAnnotations: false
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Attach
+#BreakBeforeInheritanceComma: false
+BreakBeforeTernaryOperators: false
+#BreakConstructorInitializers: AfterColon
+BreakStringLiterals: true
+ColumnLimit: 140
+#CompactNamespaces: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 8
+ContinuationIndentWidth: 8
+Cpp11BracedListStyle: false
+DerivePointerAlignment: false
+#FixNamespaceComments: true
+#IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex:           '^"(.*)'
+    Priority:        3
+  - Regex:           '^(<map[a-zA-Z0..9-_]*/)'
+    Priority:        2
+  - Regex:           '.*'
+    Priority:        1
+IndentCaseLabels: true
+#IndentPPDirectives: AfterHash
+IndentWidth: 4
+IndentWrappedFunctionNames: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: None
+#PenaltyBreakAssignment: 75
+PenaltyBreakBeforeFirstCallParameter: 150
+PenaltyBreakComment: 1
+PenaltyBreakFirstLessLess: 150
+PenaltyBreakString: 50
+PenaltyExcessCharacter: 5
+PenaltyReturnTypeOnItsOwnLine: 500
+PointerAlignment: Left
+ReflowComments: true
+SortIncludes: true
+#SortUsingDeclarations: false
+SpaceAfterCStyleCast: false
+#SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+#SpaceBeforeCtorInitializerColon: true
+#SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: Never
+#SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+Standard: Cpp11
+TabWidth: 4
+UseTab: Always
+
+
